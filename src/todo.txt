@@ -1,0 +1,36 @@
+LOWP:
+1. Add selected account, date range, and edited transaction to url. That way the back button on mobile will work as expected
+2. Logo!
+3. Date range date picker option
+4. For accounts select type (Credit card etc.)
+5. For Categories select parent (or enter parent names)
+6. Have a confirmatinon email limit once buddy has the version with this fix:
+https://github.com/parse-community/parse-server/pull/4439
+
+LOGIN ASSIST:
+
+1. Page to send email confirmation again
+2. Page to reset password
+3. Add links under login to send email confirmation again or reset password
+
+
+UX TWEAKS:
+
+1. Ability to resend email confirmation / what to do with email confirmations generally? 
+2. Docs / Salesy website / Domain
+3. If session invalid, simply treat as log out user rathe than show connectin error message.
+4. No drama on a {"code":101,"error":"Object not found."} (404) for a DELETE request, just ignore as OK
+
+SECURITY:
+
+1. Test ACLs
+2. Session expiry time setup in Parse
+
+FUNCTIONALITY:
+
+1. Import OFX etc. files
+2. Auto categorise imported transactions based on existing transactions
+3. Export to OFX etc. / JSON Backup
+4. Set up budgets: FROM, TO, CATEGORY, AMOUNT, REPEAT (need to think about this)
+5. Budget reporting using SVG (the fun bit!)
+

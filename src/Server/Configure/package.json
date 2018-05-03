@@ -1,0 +1,14 @@
+{
+  "name": "configure",
+  "version": "1.0.0",
+  "description": "Package to configure Parse for the elm-budget app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Capodici",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "parse": "^1.11.1"
+  }
+}

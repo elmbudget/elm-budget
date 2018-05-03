@@ -1,0 +1,12 @@
+
+c:\data\martin\programming\elm\elm-budget>powershell -ExecutionPolicy ByPass -File build.ps1 
+
+
+    Directory: C:\data\martin\programming\elm\elm-budget
+
+
+Mode                LastWriteTime     Length Name                              
+----                -------------     ------ ----                              
+d----        13/04/2018   6:23 AM            build                             
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
+Terminate batch job (Y/N)? 
